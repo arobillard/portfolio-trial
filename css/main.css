@@ -10,3 +10,47 @@ html {
 body{
   margin: 0;
 }
+
+/* ----- =Header ----- */
+
+.masthead {
+  background-color: #224;
+}
+
+.navh {
+  list-style-type: none;
+
+  text-align: center;
+
+  padding-left: 0;
+
+  overflow: hidden;
+
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navh li {
+  float:left;
+  width: 25%;
+  text-align: center;
+
+  padding: .5em;
+}
+
+.navh a {
+  display: inline-block;
+  color: white;
+
+  padding: 1em 2em;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.navh a:hover {
+  background-color: #335;
+  border-radius: 8px;
+}
