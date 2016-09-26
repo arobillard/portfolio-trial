@@ -15,6 +15,7 @@ body{
 
 .masthead {
   background-color: #224;
+  background: linear-gradient(-45deg, #224, #228, #337, #224);
 }
 
 .navh {
@@ -33,7 +34,7 @@ body{
 
 .navh li {
   float:left;
-  width: 25%;
+  width: 50%;
   text-align: center;
 
   padding: .5em;
@@ -43,14 +44,16 @@ body{
   display: inline-block;
   color: white;
 
-  padding: 1em 2em;
+  padding: 4em 4em;
 
   text-align: center;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 3rem;
 }
 
 .navh a:hover {
-  background-color: #335;
+  background-color: #ddf;
+  opacity: 0.1;
+  color: #224;
   border-radius: 8px;
 }
