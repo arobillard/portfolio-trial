@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 "", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+/* ----- =Header ----- */
+
+.masthead {
+  background-color: #224;
+  background: linear-gradient(-45deg, #224, #228, #337, #224);
+}
+
+.navh {
+  list-style-type: none;
+
+  text-align: center;
+
+  padding-left: 0;
+
+  overflow: hidden;
+
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navh li {
+  float:left;
+  width: 50%;
+  text-align: center;
+
+  padding: .5em;
+}
+
+.navh a {
+  display: inline-block;
+  color: white;
+
+  padding: 4em 4em;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.navh a:hover {
+  background-color: #ddf;
+  opacity: 0.1;
+  color: #224;
+  border-radius: 8px;
+}
