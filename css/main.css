@@ -10,14 +10,18 @@ html {
 
 body{
   margin: 0;
+/*  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;*/
 }
 
 .bground {
-  position: absolute;
+  position: fixed;
   top: 0;
-  left: 0;
-  min-width: 1080px;
-  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 100%;
+  min-width: 100%;
   z-index: -1;
 }
 
@@ -97,6 +101,10 @@ body{
   max-width: 600px;
 }
 
+.latest-project:hover {
+  background-color: rgba(255,255,255,0.25);
+}
+
 .latest-project h1 {
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
 }
@@ -104,6 +112,10 @@ body{
 .latest-project figure {
   margin: 0;
   position: relative;
+}
+
+.preview {
+  width: 600px;
 }
 
 .latest-project figcaption {
@@ -115,24 +127,25 @@ body{
   padding: 0.25rem 0.5rem;
 }
 
+.latest-project p:nth-child(even) {
+  padding: 1rem 0;
+}
+
 .latest-project p:last-child {
-  display: inline-block;
+  margin: 0 0 2rem;
 }
 
-.latest-link {
-  display: inline-block;
-  opacity: 0.75;
-}
-
-.latest-link a {
+.latest-project a {
   padding: 1rem 2rem;
+  margin: 2rem 0;
   background-color: rgb(0, 108, 141);
   color: white;
   border-radius: 8px;
   text-decoration: none;
+  opacity: 0.75;
 }
 
-.latest-link:hover {
+.latest-project a:hover {
   opacity: 1;
 }
 /* ----- =Footer ----- */
