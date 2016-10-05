@@ -34,6 +34,7 @@ body{
 .mast-size {
   width: 80%;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .logo-flag {
@@ -94,16 +95,19 @@ body{
 .content {
   width: 80%;
   margin: 0 auto;
+  padding: 0 1rem;
 }
-
+/* ----- =Latest Content -----*/
 .latest-project {
-  margin: 0;
+  margin: 0 0 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0,0,0,0.75);
   max-width: 600px;
 }
 
-.latest-project:hover {
+/*.latest-project:hover {
   background-color: rgba(255,255,255,0.25);
-}
+}*/
 
 .latest-project h1 {
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
@@ -112,6 +116,9 @@ body{
 .latest-project figure {
   margin: 0;
   position: relative;
+  height: 250px;
+  border-radius: 7.5px;
+  overflow: hidden;
 }
 
 .preview {
@@ -127,6 +134,10 @@ body{
   padding: 0.25rem 0.5rem;
 }
 
+.latest-project p {
+  text-shadow: 1px 1px rgba(255,255,255,0.5)
+}
+
 .latest-project p:nth-child(even) {
   padding: 1rem 0;
 }
@@ -140,7 +151,7 @@ body{
   margin: 2rem 0;
   background-color: rgb(0, 108, 141);
   color: white;
-  border-radius: 8px;
+  border-radius: 7.5px;
   text-decoration: none;
   opacity: 0.75;
 }
@@ -148,6 +159,45 @@ body{
 .latest-project a:hover {
   opacity: 1;
 }
+
+/* ----- =Panels ----- */
+
+.panels {
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+.panels li {
+  background-color: rgb(0, 108, 141);
+  border-radius: 7.5px;
+  padding: 1rem 2rem 2rem;
+  opacity: 0.75;
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+
+.panels li:hover {
+  opacity: 1;
+}
+
+.panels a {
+  text-decoration: none;
+  color: white;
+}
+
+.panels h2 {
+  margin-top: 0.4em;
+  margin-bottom: 1.23em;
+}
+
+.panels img {
+  display: block;
+  height: 150px;
+  margin: 0 auto;
+}
+
 /* ----- =Footer ----- */
 
 
@@ -162,7 +212,7 @@ body{
 .foot-size {
   width: 80%;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
 }
 
 .mastfoot ul {
