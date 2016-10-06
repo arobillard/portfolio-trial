@@ -129,6 +129,7 @@ main a:hover {
 
 .cite-boxes {
   list-style-type: none;
+  padding: 0;
   margin: 0;
   text-align: center;
 }
@@ -136,12 +137,11 @@ main a:hover {
 .cite-boxes li {
   display: inline-block;
   width: 40%;
-  margin: 1rem, 2rem;
-  padding: 1rem;
+  margin: 0 2rem 1rem;
   vertical-align: top;
 }
 
-figure h3 {
+.cite-boxes figure h3 {
   text-align: left;
   margin: 0;
 }
