@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 "Avenir", sans-serif;
-  /*background-color: rgb(36, 39, 57);*/
+  min-height: 100vh;
 }
 
 *, *::before, *::after {
@@ -10,9 +10,13 @@ html {
 
 body{
   margin: 0;
-/*  background-image: url(../images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
-  background-size: contain;*/
+  background-size: cover;
+  background-position: center top;
+  min-height: 100vh;
+  padding-bottom: 8em;
+  position: relative;
 }
 
 .bground {
@@ -99,141 +103,6 @@ body{
 .content {
   width: 80%;
   margin: 1rem auto;
-  padding:2rem;
-  background-color: rgba(255,255,255,0.75);
-  border-radius: 7.5px;
-}
-/* ----- =Latest Content -----*/
-.latest-project {
-  margin: 0 0 1rem 0;
-  padding-bottom: 2rem;
-  /*border-bottom: 1px solid rgba(0,0,0,0.75);*/
-  max-width: 60%;
-  display: inline-block;
-}
-
-h1 {
-  margin-top: 0;
-}
-
-/*.latest-project:hover {
-  background-color: rgba(255,255,255,0.25);
-}*/
-
-.latest-project h1 {
-  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
-}
-
-.latest-project figure {
-  margin: 0;
-  position: relative;
-  /*height: 225px;*/
-  border-radius: 7.5px;
-  overflow: hidden;
-}
-
-.preview {
-  width: 100%;
-  border-radius: 7.5px
-}
-
-.latest-project figcaption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(255,255,255,0.75);
-  width: 100%;
-  padding: 0.25rem 0.5rem;
-  font-size: 1.5rem;
-}
-
-.latest-project p:nth-child(even) {
-  padding: 1rem 0;
-}
-
-.latest-project p:last-child {
-  margin: 0 0 2rem;
-}
-
-.latest-project a {
-  padding: 1rem 2rem;
-  margin: 2rem 0;
-  background-color: rgb(0, 108, 141);
-  color: white;
-  border-radius: 7.5px;
-  text-decoration: none;
-  opacity: 0.75;
-}
-
-.latest-project a:hover {
-  opacity: 1;
-}
-
-/* ----- +Other Projects ----- */
-
-.preview-boxes {
-  width: 35%;
-  display: inline-block;
-}
-
-.preview-boxes figure {
-  position: relative;
-  margin: 0;
-}
-
-.preview-boxes figcaption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(255,255,255,0.75);
-  width: 100%;
-  padding: 0.25rem 0.5rem;
-}
-
-/* ----- =Panels ----- */
-
-.panels {
-  list-style-type: none;
-  padding: 2rem 0 0 0;
-
-  text-align: center;
-  border-top: 1px solid rgba(0,0,0,0.75);
-}
-
-.panels li {
-  background-color: rgb(0, 108, 141);
-  border-radius: 7.5px;
-  padding: 1rem 2rem 2rem;
-  margin: 0 2em;
-  opacity: 0.75;
-  display: inline-block;
-  width: 25%;
-  min-height: 25em;
-  vertical-align: top;
-}
-
-.panels li:hover {
-  opacity: 1;
-}
-
-.panels a {
-  text-decoration: none;
-  color: white;
-}
-
-.panels h2 {
-  margin-top: 0.4em;
-  margin-bottom: 1.23em;
-}
-
-.panels img {
-  display: block;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.panels p {
-  text-align: left;
 }
 
 /* ----- =Footer ----- */
@@ -242,9 +111,9 @@ h1 {
 .mastfoot {
   background-color: #222;
   text-align: center;
-  /*position: fixed;
+  position: absolute;
   bottom: 0;
-  width: 100%;*/
+  width: 100%;
 }
 
 .foot-size {
