@@ -168,6 +168,12 @@ h1 {
   opacity: 1;
 }
 
+#bright-right {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
 /* ----- =Panels ----- */
 
 .panels {
