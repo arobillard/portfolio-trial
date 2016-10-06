@@ -104,9 +104,9 @@ body{
 }
 /* ----- =Latest Content -----*/
 .latest-project {
-  margin: 0 0 2rem 0;
+  margin: 0 0 1rem 0;
   padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(0,0,0,0.75);
+  /*border-bottom: 1px solid rgba(0,0,0,0.75);*/
   max-width: 600px;
 }
 
@@ -169,17 +169,20 @@ body{
 
 .panels {
   list-style-type: none;
-  padding-left: 0;
+  padding: 2rem 0 0 0;
 
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,0.75);
 }
 
 .panels li {
   background-color: rgb(0, 108, 141);
   border-radius: 7.5px;
   padding: 1rem 2rem 2rem;
+  margin: 0 2em;
   opacity: 0.75;
   display: inline-block;
-  width: 33%;
+  width: 25%;
   vertical-align: top;
 }
 
@@ -201,6 +204,10 @@ body{
   display: block;
   height: 150px;
   margin: 0 auto;
+}
+
+.panels p {
+  text-align: left;
 }
 
 /* ----- =Footer ----- */
@@ -231,6 +238,10 @@ body{
 .mastfoot a {
   text-decoration: none;
   color: #555;
+}
+
+.mastfoot a.current-p {
+  color: rgba(0, 108, 141,0.5);
 }
 
 .social img {
