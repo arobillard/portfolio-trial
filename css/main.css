@@ -38,6 +38,7 @@ body{
 .mast-size {
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 .logo-flag {
@@ -102,6 +103,7 @@ body{
 
 .content {
   width: 80%;
+  max-width: 1200px;
   margin: 1rem auto;
 }
 
@@ -118,6 +120,7 @@ body{
 
 .foot-size {
   width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1rem 1rem;
 }

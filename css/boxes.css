@@ -1,0 +1,41 @@
+.previews {
+  background-color: #fff;
+  text-align: center;
+}
+
+.pre-box {
+  padding: 0.1em;
+}
+
+.pre-main {
+  width: 75%;
+  float: left;
+  height: 30em;
+}
+
+.pre-main-content {
+  border: 3px solid #fff;
+  height: 100%;
+}
+
+.pre-side {
+  float: left;
+  width: 25%;
+  height: 30em;
+}
+
+.pre-side-content {
+  border: 3px solid #fff;
+  height: 100%;
+}
+
+.pre-bottom {
+  float: left;
+  width: 25%;
+  height: 17.5em;
+}
+
+.bottom-content {
+  border: 3px solid #fff;
+  height: 100%;
+}
